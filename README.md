@@ -41,13 +41,13 @@ Make sure you have the following installed on your machine:
 1.  Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/next-blog-app.git
+git clone https://github.com/YousifMHelal/postpeak.git
 ```
 
 2.  Navigate to the project directory:
 
 ```bash
-cd next-blog-app
+cd postpeak
 ```
 
 3.  Install dependencies:
