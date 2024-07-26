@@ -1,3 +1,4 @@
+// pages/api/auth/[...nextauth].js
 import NextAuth from "next-auth";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import GithubProvider from "next-auth/providers/github";
@@ -16,7 +17,7 @@ export const authOptions = {
       clientSecret: process.env.GITHUB_SECRET,
     }),
   ],
-  debug: true, // Enable debugging
+  debug: true,
 };
 
 const authHandler = (req, res) => NextAuth(req, res, authOptions);
